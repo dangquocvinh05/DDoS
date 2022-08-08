@@ -2,7 +2,7 @@
 #Coded by DQV
 #########################################
 #         Just a little change          #
-#             -- DQ.Vinh                #
+#           Đặng Quốc Vinh              #
 #########################################
 import requests
 import socket
@@ -658,6 +658,11 @@ def downloadsocks(choice):
 			pass
 		try:
 			r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks5",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
+			r = requests.get("https://raw.githubusercontent.com/dangquocvinh05/proxy-list/main/socks.txt",timeout=5)
 			f.write(r.content)
 		except:
 			pass
