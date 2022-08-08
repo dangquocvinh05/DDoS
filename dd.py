@@ -632,18 +632,18 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-                        r = requests.get("https://raw.githubusercontent.com/R00tS3c/DDOS-RootSec/master/DDOS%20Scripts/L7/socks.txt",timeout=5)
-        	        f.write(r.content)
+			r = requests.get("https://raw.githubusercontent.com/R00tS3c/DDOS-RootSec/master/DDOS%20Scripts/L7/socks.txt",timeout=5)
+			f.write(r.content)
 		except:
 			pass
 		try:
-                        r = requests.get("https://www.freeproxychecker.com/result/socks5_proxies.txt",timeout=5)
-                        f.write(r.content)
+			r = requests.get("https://www.freeproxychecker.com/result/socks5_proxies.txt",timeout=5)
+			f.write(r.content)
 		except:
 			pass
 		try:
-                        r = requests.get("ttps://api.openproxylist.xyz/socks5.txt",timeout=5)
-        	        f.write(r.content)
+			r = requests.get("ttps://api.openproxylist.xyz/socks5.txt",timeout=5)
+			f.write(r.content)
 		except:
 			pass
 		try:
@@ -708,8 +708,8 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-                        r = requests.get("https://raw.githubusercontent.com/hoaan1995/ZxCDDoS/main/socks.txt",timeout=5)
-        	        f.write(r.content)
+			r = requests.get("https://raw.githubusercontent.com/hoaan1995/ZxCDDoS/main/socks.txt",timeout=5)
+			f.write(r.content)
 		except:
 			pass
 		try:
