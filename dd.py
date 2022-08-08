@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python -tt
 #Coded by DQV
 #########################################
 #         Just a little change          #
