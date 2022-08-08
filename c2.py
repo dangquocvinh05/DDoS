@@ -2,7 +2,7 @@
 #Coded by DQV
 #########################################
 #         Just a little change          #
-#                           -- DQ.Vinh  #
+#             -- DQ.Vinh                #
 #########################################
 import requests
 import socket
