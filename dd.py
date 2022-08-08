@@ -6,7 +6,7 @@
 #########################################
 import requests
 import socket
-import socks
+import socks5
 import time
 import random
 import threading
