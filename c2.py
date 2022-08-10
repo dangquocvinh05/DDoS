@@ -667,6 +667,11 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
+			r = requests.get("https://raw.githubusercontent.com/dangquocvinh05/proxy-list/main/proxy.txt",timeout=5)
+			f.write(r.content)
+		except:
+			pass
+		try:
 			r = requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",timeout=5)
 			f.write(r.content)
 		except:
