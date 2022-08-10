@@ -286,7 +286,7 @@ def OutputToScreen(ind_rlock):
 			total = total + v
 			ind_dict[k] = 0
 		ind_rlock.release()
-		print("{:^70}".format(" ["+sp_char[i]+"] CC attack | Total Rps:"+str(total)))
+		print("{:^70}".format(" ["+sp_char[i]+"] ddos attack | Total Rps:"+str(total)))
 		i+=1
 		time.sleep(1)
 		print("\n"*100)
