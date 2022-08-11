@@ -568,7 +568,7 @@ def downloadsocks(choice):
 			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt",timeout=5)
 			f.write(r.content)
 		except:
-			pass+
+			pass
 		try:
 			r = requests.get("https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",timeout=5)
 			f.write(r.content)
