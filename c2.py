@@ -691,17 +691,7 @@ def downloadsocks(choice):
 		except:
 			pass
 		try:
-			r = requests.get("https://raw.githubusercontent.com/firstapostle/Blood/main/proxy.txt",timeout=5)
-			f.write(r.content)
-		except:
-			pass
-		try:
 			r = requests.get("https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt",timeout=5)
-			f.write(r.content)
-		except:
-			pass
-		try:
-			r = requests.get("https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https.txt",timeout=5)
 			f.write(r.content)
 		except:
 			pass
